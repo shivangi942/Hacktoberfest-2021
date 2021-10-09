@@ -1,0 +1,53 @@
+:root{
+    color: white;
+}
+
+
+.image{
+    max-width: 40vw;
+    max-height: 40vh;
+    border-bottom: #212121 2px solid;
+    border-top: #212121 2px solid;
+}
+
+.artSection{
+    margin: 2rem 2rem;
+    box-shadow: 10px 10px 7px #6B7280;
+    border-radius: 1rem;
+}
+
+.artCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+header{
+    text-align: center;
+    padding: 0.5rem 1rem;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    padding: 00.5rem 1rem;
+    color: white;
+}
+
+span{
+    font-weight: bolder;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-image: radial-gradient(#111827, black);
+}
