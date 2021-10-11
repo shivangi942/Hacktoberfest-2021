@@ -1,0 +1,92 @@
+body{
+    background-image: radial-gradient(#CEE5D0, #F3F0D7, #E0C097, #FF7878);
+}
+
+
+
+
+img{
+    width: 100vw;
+    height: 30vh;
+    opacity: 90%;
+    
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.input{
+    /* width: 60%;
+    height: 12%; */
+    margin-top: 1rem;
+    text-align: center;
+   
+}
+
+#txt-input{
+    /* width: 50vw;
+    height: 10vh; */
+    width: 50vw;
+    height: 10vh;
+    border-radius: 0.5rem;
+    text-align: center;
+    background: transparent;
+    box-shadow: 8px 8px 10px #4A403A;
+    border: 2px;
+}
+
+.button{   
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+   
+}
+
+#btn-translate{
+    border-radius: 0.3rem;
+    font-weight: bolder;
+    background: transparent;
+    box-shadow: 5px 5px 7px #4A403A;
+    border: transparent;
+    font-size: large;
+    color: brown;
+}
+
+.output{
+    /* width: 60%;
+    height: 12%; */    
+    text-align: center;
+   
+    
+}
+
+#txt-output{
+    border: 0px solid black;
+    width: 50vw;
+    height: 10vh;
+    border-radius: 0.5rem;
+    margin: auto;
+    box-shadow: 8px 8px 10px #4A403A;
+    font-weight: bold;
+
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+}
+
+textarea:hover{
+    transform: scale(1.2);
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+
+#txt-output:hover{
+    transform: scale(1.2);
+}
